@@ -52,3 +52,19 @@ round(my_float, 2) # rounds to 2 decimal places
 age = 12
 print(f"I am {age} years old")
 # modifies print statements to work with variables.
+
+# if / else statements:
+if age > 10:
+    print("Yeah!")
+elif age == 10:
+    print("Almost!")
+else:
+    print("Sorry!")
+# Comparable operators: < , <= , > , >= , == , !=
+
+# Modulo Operator %:
+# Returns the remainder of a division.
+remainder = 5 % 2 # remainder = 1
+
+# Logical Operators:
+# and , or , not
