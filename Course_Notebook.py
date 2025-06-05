@@ -94,3 +94,10 @@ fruits[-1] # "Pear" - Last item in list
 fruits[0] = "Orange" # Modify item in list. Was "Cherry" now it's "Orange"
 fruits.append("Cherry") # Adds single item at the end of the list
 random_item = random.choice(fruits) # selects a random item from a list
+
+
+# For Loops
+for fruit in fruits: # loops through every element in list
+    print(fruit) # prints every item in fruits list
+for number in range(1, 100): # loops from 1 (inc) to 100 (not inc)
+    print(number)
