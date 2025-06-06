@@ -101,3 +101,10 @@ for fruit in fruits: # loops through every element in list
     print(fruit) # prints every item in fruits list
 for number in range(1, 100): # loops from 1 (inc) to 100 (not inc)
     print(number)
+
+
+# Functions
+def my_function(): # create a function
+    print("Hello")
+
+my_function() # call the function
