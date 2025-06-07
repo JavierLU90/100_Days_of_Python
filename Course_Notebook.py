@@ -103,8 +103,21 @@ for number in range(1, 100): # loops from 1 (inc) to 100 (not inc)
     print(number)
 
 
+# While Loops
+something_is_true = True
+while something_is_true:
+    print("This is true")
+    something_is_true = False
+
+
 # Functions
 def my_function(): # create a function
     print("Hello")
-
 my_function() # call the function
+
+
+# Imports
+# You can import from other modules (for example: random) or from other files in your project.
+# You can import the whole module/file using "import <name_of_module>.""
+# Or you can import pieces from the module/file.
+# For example: "from <name_of_module> import <variable/function>"
