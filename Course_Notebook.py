@@ -121,3 +121,10 @@ my_function() # call the function
 # You can import the whole module/file using "import <name_of_module>.""
 # Or you can import pieces from the module/file.
 # For example: "from <name_of_module> import <variable/function>"
+
+
+# Functions with input:
+def new_function(my_string): # create function, require an input
+    print(my_str)
+new_function("Hello") # call function by passing in an input
+# Parameter = my_string, argument = "Hello"
