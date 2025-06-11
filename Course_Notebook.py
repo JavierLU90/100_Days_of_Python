@@ -125,7 +125,7 @@ my_function() # call the function
 
 # Functions with input:
 def new_function(my_string): # create function, require an input
-    print(my_str)
+    print(my_string)
 new_function("Hello") # call function by passing in an input
 # Parameter = my_string, argument = "Hello"
 
@@ -141,3 +141,11 @@ for key in my_dictionary: # Loop through a dictionary.
     print(key) # Print all the keys.
     print(my_dictionary[key]) # Print all the values.
 # The values of a dictionary can be lists or even dictionaries.
+
+
+# Functions with outputs:
+def my_new_function(): # Create function.
+    ''' This function does something.''' # Doctrings: adds explanation to the function.
+    result = 3 * 2 # Do something.
+    return result # Return what you did.
+func_return = my_new_function() # Calls function and stores what the function returns into a variable.
