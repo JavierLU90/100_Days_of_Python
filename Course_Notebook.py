@@ -149,3 +149,5 @@ def my_new_function(): # Create function.
     result = 3 * 2 # Do something.
     return result # Return what you did.
 func_return = my_new_function() # Calls function and stores what the function returns into a variable.
+
+# Finish Day 11
