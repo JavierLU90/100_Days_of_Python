@@ -161,3 +161,15 @@ global my_variable # Way to call global variables to modify them inside a functi
 
 # Constants:
 PI = 3.14159 # Define constants with all capital letters to differentiate.
+
+
+# Catching Exceptions:
+""" You can use a try/except block in Python to catch any exceptions that might occur. 
+For example if you imagine there could be a chance of user error. 
+You can prevent it crashing your code by anticipating it. 
+You trap the dangerous code inside a try block and use an except block to catch any potential errors. 
+Then you define what should happen when that error occurs instead of simply just crashing and stopping the code."""
+try:
+    print(6 > "five")
+except TypeError:
+    print("You can't mix integers and strings in a comparison")
