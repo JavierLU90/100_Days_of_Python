@@ -150,4 +150,14 @@ def my_new_function(): # Create function.
     return result # Return what you did.
 func_return = my_new_function() # Calls function and stores what the function returns into a variable.
 
-# Finish Day 11
+
+# Scope:
+# Global vs Local: 
+#   Local only works inside functions. 
+#   Global works outside too.
+# Just be carefule were you declare variables/functions.
+global my_variable # Way to call global variables to modify them inside a function.
+
+
+# Constants:
+PI = 3.14159 # Define constants with all capital letters to differentiate.
