@@ -173,3 +173,6 @@ try:
     print(6 > "five")
 except TypeError:
     print("You can't mix integers and strings in a comparison")
+
+
+# Finished Day 14
