@@ -175,4 +175,12 @@ except TypeError:
     print("You can't mix integers and strings in a comparison")
 
 
-# Finished Day 15
+# Classes
+import turtle # turtle is a module included in Python
+timmy = turtle.Turtle() # timmy is now an object created from the Turtle Class
+# Classes are defined with Pascal Case spelling
+# Atributes are variables defined in a class
+my_screen = turtle.Screen()
+print(my_screen.canvheight) # prints the attribute canvheight from Screen Class
+# Methods are functions inside of Classes
+my_screen.exitonclick() # example of a method in the Screen Class
