@@ -192,3 +192,6 @@ class User: # Create Class: User
         pass # Empty for now
 user_1 = User() # Create object from class
 user_1.id = "001" # Add attribute to object
+
+
+# Finished Day 18
