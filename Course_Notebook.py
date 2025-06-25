@@ -187,11 +187,22 @@ my_screen.exitonclick() # example of a method in the Screen Class
 
 
 # Creating Classes:
-class User: # Create Class: User
+class Animal: # Create Class: User
     def __init__(self): # Initializer constructor
         pass # Empty for now
-user_1 = User() # Create object from class
-user_1.id = "001" # Add attribute to object
+    def breathe(self):
+        print("Inhale, exhale.")
+animal_1 = Animal() # Create object from class
+animal_1.id = "001" # Add attribute to object
 
 
-# Finished Day 20
+# Class Inheritance:
+# Inherits attributes and methods from an existing class.
+class Fish(Animal):
+    def __init__(self): # Gets all the stuff from the parent class
+        super().__init__()
+    def breathe(self): # adds stuff to methods from parent class
+        super().breathe()
+        print("Doing this underwater.")
+    def swim(self): # new method
+        print("Moving underwater.")
