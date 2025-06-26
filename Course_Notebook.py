@@ -206,3 +206,6 @@ class Fish(Animal):
         print("Doing this underwater.")
     def swim(self): # new method
         print("Moving underwater.")
+
+
+# Finished Day 22
