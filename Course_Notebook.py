@@ -208,4 +208,4 @@ class Fish(Animal):
         print("Moving underwater.")
 
 
-# Finished Day 22
+# Finished Day 23
