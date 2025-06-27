@@ -208,4 +208,15 @@ class Fish(Animal):
         print("Moving underwater.")
 
 
-# Finished Day 23
+# Working with Files:
+# Open File:
+file = open("README.md", "r") 
+text = file.read()
+file.close()
+# Or:
+with open("README.md", "r") as file:
+    text = file.read()
+
+# Write to file:
+with open("new_file.txt", "w") as file: # If new_file.txt doesn't exist, this method creates it.
+    file.write(text)
