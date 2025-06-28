@@ -220,3 +220,19 @@ with open("README.md", "r") as file:
 # Write to file:
 with open("new_file.txt", "w") as file: # If new_file.txt doesn't exist, this method creates it.
     file.write(text)
+
+
+# csv Module
+import csv
+with open("weather_data.csv") as file:
+    data = csv.reader(file)
+    for row in data:
+        print(data) # prints the whole csv file divided in rows.
+
+
+# pandas Library
+import pandas
+data = pandas.read_csv("weather_data.csv")
+print(data) # reads csv data and formats it into table.
+# Way easier to use than the csv Module.
+# Check Day 25 for more info.
