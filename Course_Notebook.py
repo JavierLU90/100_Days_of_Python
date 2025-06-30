@@ -252,3 +252,8 @@ short_names = [name for name in names if len(name) < 5] # Adds name to new list 
 # Dictionary Comprehension:
 # new_dict = {new_key:new_value for item in list}
 # new_dict = {new_key:new_value for (key, value) in dictionary.items()}
+
+
+# TKInter Library:
+# Used to create GUIs.
+# Refer to Day 27.
