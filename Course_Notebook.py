@@ -216,13 +216,12 @@ file.close()
 # Or:
 with open("README.md", "r") as file:
     text = file.read()
-
 # Write to file:
 with open("new_file.txt", "w") as file: # If new_file.txt doesn't exist, this method creates it.
     file.write(text)
 
 
-# csv Module
+# csv Module:
 import csv
 with open("weather_data.csv") as file:
     data = csv.reader(file)
@@ -230,9 +229,26 @@ with open("weather_data.csv") as file:
         print(data) # prints the whole csv file divided in rows.
 
 
-# pandas Library
+# pandas Library:
 import pandas
 data = pandas.read_csv("weather_data.csv")
 print(data) # reads csv data and formats it into table.
 # Way easier to use than the csv Module.
 # Check Day 25 for more info.
+
+
+# List Comprehension:
+numbers = [1, 2, 3] # If you have a list
+new_list = [num + 1 for num in numbers] # you can create a new list modifying the old one
+# new_list = [2, 3, 4]
+range_list = [num * 2 for num in range(1, 5)] # use range instead of list
+# range_list = [2, 4, 6, 8]
+names = ["Alex", "Beth", "Caroline", "Dave"]
+short_names = [name for name in names if len(name) < 5] # Adds name to new list if the length is < 5
+# short_names = ["Alex", "Beth", "Dave"]
+# new_list = [new_item for item in list if test] -- syntax
+
+
+# Dictionary Comprehension:
+# new_dict = {new_key:new_value for item in list}
+# new_dict = {new_key:new_value for (key, value) in dictionary.items()}
