@@ -257,3 +257,18 @@ short_names = [name for name in names if len(name) < 5] # Adds name to new list 
 # TKInter Library:
 # Used to create GUIs.
 # Refer to Days 27-29
+
+
+# Try Catch Except:
+try: # Something that might cause an exception
+    pass
+except: # Do this if there was an exception
+    # Try to be specific with the exceptions.
+    # Examples: FileNotFoundError, KeyError, TypeError, ValueError
+    pass
+else: # Do this if there were no exceptions
+    pass
+finally: # Do this no matter what happens
+    pass
+# Raising Exceptions:
+raise ValueError("This value is not valid") # you can check if the value falls within parameters.

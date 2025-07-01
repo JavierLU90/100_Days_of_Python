@@ -1,0 +1,7 @@
+Modified Project from Day 26:
+    Added Try, Catch Exceptions.
+
+Modified Project from Day 29:
+    Modified to JSON instead of text.
+    Added Try, Catch Exceptions.
+    Added Website Search functionality.
