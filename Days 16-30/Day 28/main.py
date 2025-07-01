@@ -11,7 +11,7 @@ LONG_BREAK_MIN = 20
 CHECK_MARK = "✔"
 
 reps = 0
-timer = None
+timer = ""
 
 # ---------------------------- TIMER RESET ------------------------------- # 
 def reset_timer():
