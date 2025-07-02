@@ -271,7 +271,17 @@ else: # Do this if there were no exceptions
 finally: # Do this no matter what happens
     pass
 # Raising Exceptions:
-raise ValueError("This value is not valid") # you can check if the value falls within parameters.
+# raise ValueError("This value is not valid") # you can check if the value falls within parameters.
 
 
-# Finished Day 31
+# smtplib Module
+# Way to send emails via Python.
+import smtplib
+with smtplib.SMTP("smtp.gmail.com") as connection:
+    connection.starttls()
+    connection.login(user="hellopeople@gmail.com", password="12345678")
+    connection.sendmail(
+        from_addr="hellopeople@gmail.com", 
+        to_addrs="momsemail@gmail.com",
+        msg="Subject:Hello\n\nThis is the body of my email."
+    )
