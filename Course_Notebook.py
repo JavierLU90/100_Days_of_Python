@@ -285,3 +285,13 @@ with smtplib.SMTP("smtp.gmail.com") as connection:
         to_addrs="momsemail@gmail.com",
         msg="Subject:Hello\n\nThis is the body of my email."
     )
+
+
+# APIs (Application Programming Interface)
+# A set of commands, functions, protocols and objects that programmers can use to create software 
+# or interact with an external system.
+import requests # type: ignore
+response = requests.get(url="website_url_here")
+print(response) # Prints the response code of the request.
+response.raise_for_status() # raise error depending on the code from the response
+data = response.json() # This is the real data
