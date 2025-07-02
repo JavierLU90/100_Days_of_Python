@@ -272,3 +272,6 @@ finally: # Do this no matter what happens
     pass
 # Raising Exceptions:
 raise ValueError("This value is not valid") # you can check if the value falls within parameters.
+
+
+# Finished Day 31
