@@ -295,3 +295,6 @@ response = requests.get(url="website_url_here")
 print(response) # Prints the response code of the request.
 response.raise_for_status() # raise error depending on the code from the response
 data = response.json() # This is the real data
+
+
+# Finished Day 34
