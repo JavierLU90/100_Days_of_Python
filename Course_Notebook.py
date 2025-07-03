@@ -306,3 +306,6 @@ parameters={
 }
 requests.get(url="url", params=parameters)
 # Way to modigfy get requests for APIs
+
+
+# Finished Day 36
