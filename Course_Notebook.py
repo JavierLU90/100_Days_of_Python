@@ -297,4 +297,12 @@ response.raise_for_status() # raise error depending on the code from the respons
 data = response.json() # This is the real data
 
 
-# Finished Day 34
+# API Authentication:
+api_key = "blablablah"
+parameters={
+    "param_1": "asdg",
+    "param_2": "dfgd",
+    "app_id": api_key,
+}
+requests.get(url="url", params=parameters)
+# Way to modigfy get requests for APIs
