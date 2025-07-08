@@ -308,4 +308,8 @@ requests.get(url="url", params=parameters)
 # Way to modigfy get requests for APIs
 
 
-# Finished Day 36
+# HTTP Requests:
+# POST: Same as get requests, but instead of requesting info, we pass data to write.
+# PUT: update an already posted piece of data.
+# DELETE: deletes an already posted piece of data.
+# See Day 37 for examples.
